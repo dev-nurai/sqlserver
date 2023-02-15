@@ -11,3 +11,4 @@ SELECT * FROM student ORDER BY Location;
 
 SELECT * FROM student ORDER BY Name DESC;
 
+--What the condition matched ------ how to sort multiple columns in sql

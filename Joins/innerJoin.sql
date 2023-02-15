@@ -2,9 +2,9 @@ USE learningsql;
 
 -------- INNER JOIN ----------------
 
-SELECT employee.Name, employee.Department, department.dept_name, department.dept_location
+SELECT e.Name, e.Department, d.dept_name, d.dept_location
 
-FROM employee
-INNER JOIN department
-ON employee.Department = department.dept_name;
+FROM employee e
+INNER JOIN department d
+ON e.Department = d.dept_name;
 
