@@ -88,4 +88,14 @@ SELECT COUNT(NAME) FROM CITY
 WHERE POPULATION > 100000;
 
 
+------
+
+/*
+Query the smallest Northern Latitude (LAT_N) from STATION that is greater than 38.7780.
+Round your answer to  decimal places.
+*/
+
+SELECT Top 1 CAST(ROUND((LAT_N),4) as decimal(18,4)) FROM STATION
+WHERE LAT_N > 38.7780
+ORDER BY LAT_N;
 
